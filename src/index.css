@@ -471,11 +471,13 @@ body::after {
 .movie-card-top {
   display: flex;
   gap: 28px;
+  align-items: flex-start;
 }
 
 .movie-poster {
   width: 200px;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
   border-radius: 10px;
   margin-top: -80px;
   position: relative;
@@ -982,7 +984,7 @@ body::after {
 
   .movie-poster, .no-poster {
     width: 150px;
-    height: auto;
+    height: 225px;
     margin-top: -50px;
   }
 
